@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main,menu);
-        Toast.makeText(this, "删除嘿嘿嘿么么哒吗", Toast.LENGTH_SHORT).show();
 
         return true;
     }
@@ -54,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "增加", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.item_remove:
-                Toast.makeText(this, "删除嘿嘿嘿么么哒吗", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "123456", Toast.LENGTH_SHORT).show();
                 break;
         }
         return true;
